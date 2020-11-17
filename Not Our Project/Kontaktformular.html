@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kontaktformular</title>
+<link rel="stylesheet" type="text/css" href=Formate.css >
+</head>
+
+
+<body>  
+     <div id="holder">
+         <div id="head">
+		  <div id="logoholder">
+			<img id="logo" src="44126328-hotel-logo-template.jpg">
+		  </div>	
+
+  <div id="navigation">
+        	<nav>
+         		<a href="Home.html">Home</a>
+         		<a href="Angebot.html">Angebot</a>
+				<a href="Rezeptseite.html">Rezept</a>
+        		<a href="Kontaktformular.html" class="active">Kontakt</a>
+              </nav>    
+		  </div>
+       
+            
+    <div id="content">
+        <h1>Schön, von Ihnen zu hören oder zu lesen</h1>
+        <p>
+            Haben Sie Fragen an uns? Oder einen ganz speziellen Wunsch? Dann freuen wir uns auf Ihren Anruf oder Ihre E-Mail.
+        </p>
+        <p> 
+        Ihr Hotelteam aus Visp
+        </p> 
+        <br>
+    
+        <h2>So finden Sie uns:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7068.455745910658!2d7.880518980474312!3d46.29139877852147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478f6b0569ab2179%3A0x8531d8fa516015e8!2s3930%20Visp!5e0!3m2!1sde!2sch!4v1574280933467!5m2!1sde!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        
+        <br>
+        <br>
+    
+        <h2>Kontaktangaben</h2>
+        
+        <formular>    
+            <p>
+            Name: 
+                <input type="text" name="Nachname"/> 
+            Vorname: 
+                <input type="text" name="Vorname"/> 
+            </p>
+         
+            <p>
+            Telefonnummer: 
+            </p>
+                <select name="Telefonnummer" required size="1">
+                    <option value="Mobile">Mobilenummer</option>
+                    <option value="Festnetz">Festnetz</option>
+                </select>
+                <input type="text" name="Telefonnummer"  value="+41" size="13" maxlength="20"/>
+            <p>
+            E-Mail: 
+            </p>
+                <input type="text" name="E-Mail" required size="30" maxlength="200"/>
+           
+            <br>
+            <br>
+            
+            <h3>
+            Ihr Anliegen
+            </h3>
+            
+            <textarea name="Ihr Anliegen" rows="16" cols="80"></textarea>
+           
+            <br>
+            <input type="submit" name="Button" value="Senden" />
+            
+      </formular>
+             </div>
+         <div id="footer">
+			 <p class="noborder">2019 Hotel Otto Marti | Bergstrasse 12 | 3930 Visp</p>
+	</div>
+        </div>
+
+    </body>
+</html>
