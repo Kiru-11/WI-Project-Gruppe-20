@@ -4,6 +4,30 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.all{
+    display: grid;
+    
+}
+
+
+.wrapper{
+    display: grid;
+    
+    
+}
+
+.navbar navbar-expand-lg navbar-dark bg-primary{
+    width: 100%;
+}
+	
+<!--#holder {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+	padding: 30px;
+}-->
+
 div, body, html {
 	color: black; 
 	font-style: normal; 
@@ -104,13 +128,8 @@ nav a:hover, nav a.active {
 
 
 /* Element Styles */
-	
-#holder {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-	padding: 30px;
-}
+
+
 
 #head {
     width: auto;
