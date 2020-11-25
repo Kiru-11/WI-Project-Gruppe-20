@@ -2,7 +2,7 @@
 
 .all-container {
     display: grid;
-    background-color: aliceblue;
+    background-color: aqua;
     width: 100%;
     height: 100vh;
     
@@ -10,11 +10,12 @@
 
 .container-fluid {
     display: flex;
-    background-color: aqua;
     width: 50%;
     height: 100%;
 }
 
+
+/* Header */
 .header_container {
     height: 10vh;
 }
@@ -28,6 +29,8 @@
 .navbar{
     margin-right: 20%;
 }
+
+/* Main */
 
 #main_container{
     height: 85vh;
@@ -54,14 +57,35 @@
     width: 100%;
     height: 100%;
 }
-
+#werbebanner{
+    width: 100%;
+    height: 100%;
+}
 #inhalt {
     align-items: center;
     background-color: aquamarine;
     width: 100%;
     height: 100%;
 }
+img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
 
+}
+/* Main Start */
+
+#links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 0.5em;
+    grid-column-gap: $spaceing-xl;
+    width: 100%;
+    height: 100%;
+}
+#insta_img{
+    width: 60px;
+}
+/* Main Angebot */
 #inhalt_angebot{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -83,7 +107,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: azure;
 }
-img {
+#buch_img {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 5px;
@@ -91,6 +115,7 @@ img {
     margin: 0.5em;
 }
 
+/* Footer */
 #footer{
     background-color: aqua;
     display: flex;
